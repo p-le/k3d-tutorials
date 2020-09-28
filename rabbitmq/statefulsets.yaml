@@ -19,7 +19,7 @@ spec:
         kubernetes.io/os: linux
       initContainers:
         - name: rabbitmq-config
-          image: busybox:1.32
+          image: busybox:latest
           imagePullPolicy: Always
           command:
             - sh
@@ -32,11 +32,11 @@ spec:
           volumeMounts:
             - name: config-volume
               mountPath: /init/config/
-            - name: secrets-volume
+            - name: secrets-erlang-cookie-volume
               mountPath: /init/secrets/
             - name: config
               mountPath: /etc/rabbitmq
-            - name: rabbitmq-pvc
+            - name: rabbitmq-pv
               mountPath: /var/lib/rabbitmq
       containers:
       - name: rabbitmq-k8s
@@ -49,7 +49,7 @@ spec:
         volumeMounts:
           - name: config
             mountPath: /etc/rabbitmq
-          - name: rabbitmq-pvc
+          - name: rabbitmq-pv
             mountPath: /var/lib/rabbitmq
         ports:
           - name: http
@@ -108,18 +108,11 @@ spec:
               path: rabbitmq.conf
             - key: enabled_plugins
               path: enabled_plugins
-        - name: secrets-volume
+        - name: secrets-erlang-cookie-volume
           secret:
-            secretName: rabbitmq
+            secretName: rabbitmq-erlang-cookie
         - name: config
           emptyDir: {}
-  volumeClaimTemplates:
-    - metadata:
-        name: rabbitmq-pvc
-      spec:
-        accessModes:
-        - ReadWriteOnce
-        storageClassName: local-path
-        resources:
-          requests:
-            storage: 512Mi
+        - name: rabbitmq-pv
+          persistentVolumeClaim:
+            claimName: rabbitmq-pvc

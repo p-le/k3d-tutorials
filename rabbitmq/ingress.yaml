@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+name: nginx
+annotations:
+ingress.kubernetes.io/ssl-redirect: "false"
+spec:
+rules:
+- http:
+paths:
+- path: /rabbitmq/amqp
+backend:
+serviceName: rabbitmq-backend
+servicePort: 5672
+- path: /rabbitmq/dashboard
+backend:
+serviceName: rabbitmq-backend
+servicePort: 15672
