@@ -1,18 +1,19 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-name: nginx
-annotations:
-ingress.kubernetes.io/ssl-redirect: "false"
+  name: rabbitmq
+  annotations:
+    ingress.kubernetes.io/ssl-redirect: "false"
+    kubernetes.io/ingress.class: traefik
 spec:
-rules:
-- http:
-paths:
-- path: /rabbitmq/amqp
-backend:
-serviceName: rabbitmq-backend
-servicePort: 5672
-- path: /rabbitmq/dashboard
-backend:
-serviceName: rabbitmq-backend
-servicePort: 15672
+  rules:
+  - http:
+      paths:
+      - path: /rabbitmq/ampq
+        backend:
+          serviceName: rabbitmq-backend
+          servicePort: 5672
+      - path: /rabbitmq
+        backend:
+          serviceName: rabbitmq-backend
+          servicePort: 15672

@@ -12,5 +12,3 @@ spec:
   - name: amqp
     protocol: TCP
     port: 5672
-  selector:
-    app: rabbitmq
