@@ -1,0 +1,1334 @@
+Ign:1 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 InRelease
+Get:2 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release [3457 B]
+Get:3 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 Release.gpg [801 B]
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial InRelease [247 kB]
+Get:6 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6/multiverse amd64 Packages [14.3 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [1816 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/main amd64 Packages [1558 kB]
+Get:11 http://archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages [14.1 kB]
+Get:12 http://archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [9827 kB]
+Get:13 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [15.9 kB]
+Get:14 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [946 kB]
+Get:15 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [9253 B]
+Get:16 http://archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [176 kB]
+Get:17 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [2331 kB]
+Get:18 http://archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [16.4 kB]
+Get:19 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [1491 kB]
+Get:20 http://archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [26.8 kB]
+Get:21 http://archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [10.9 kB]
+Get:22 http://archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [12.6 kB]
+Fetched 18.8 MB in 10s (1772 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libffi6 libgmp10 libgnutls-openssl27 libgnutls30 libhogweed4 libidn11
+  libnettle6 libp11-kit0 libtasn1-6
+Suggested packages:
+  gnutls-bin
+The following NEW packages will be installed:
+  iputils-ping libffi6 libgmp10 libgnutls-openssl27 libgnutls30 libhogweed4
+  libidn11 libnettle6 libp11-kit0 libtasn1-6
+0 upgraded, 10 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1305 kB of archives.
+After this operation, 3779 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libgmp10 amd64 2:6.1.0+dfsg-2 [240 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libnettle6 amd64 3.2-1ubuntu0.16.04.1 [93.5 kB]
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libhogweed4 amd64 3.2-1ubuntu0.16.04.1 [136 kB]
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libidn11 amd64 1.32-3ubuntu1.2 [46.5 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial/main amd64 libffi6 amd64 3.2.1-4 [17.8 kB]
+Get:6 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libp11-kit0 amd64 0.23.2-5~ubuntu16.04.1 [105 kB]
+Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtasn1-6 amd64 4.7-3ubuntu0.16.04.3 [43.5 kB]
+Get:8 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgnutls30 amd64 3.4.10-4ubuntu1.8 [548 kB]
+Get:9 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgnutls-openssl27 amd64 3.4.10-4ubuntu1.8 [21.9 kB]
+Get:10 http://archive.ubuntu.com/ubuntu xenial/main amd64 iputils-ping amd64 3:20121221-5ubuntu2 [52.7 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 1305 kB in 2s (486 kB/s)
+Selecting previously unselected package libgmp10:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7032 files and directories currently installed.)
+Preparing to unpack .../libgmp10_2%3a6.1.0+dfsg-2_amd64.deb ...
+Unpacking libgmp10:amd64 (2:6.1.0+dfsg-2) ...
+Selecting previously unselected package libnettle6:amd64.
+Preparing to unpack .../libnettle6_3.2-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libnettle6:amd64 (3.2-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libhogweed4:amd64.
+Preparing to unpack .../libhogweed4_3.2-1ubuntu0.16.04.1_amd64.deb ...
+Unpacking libhogweed4:amd64 (3.2-1ubuntu0.16.04.1) ...
+Selecting previously unselected package libidn11:amd64.
+Preparing to unpack .../libidn11_1.32-3ubuntu1.2_amd64.deb ...
+Unpacking libidn11:amd64 (1.32-3ubuntu1.2) ...
+Selecting previously unselected package libffi6:amd64.
+Preparing to unpack .../libffi6_3.2.1-4_amd64.deb ...
+Unpacking libffi6:amd64 (3.2.1-4) ...
+Selecting previously unselected package libp11-kit0:amd64.
+Preparing to unpack .../libp11-kit0_0.23.2-5~ubuntu16.04.1_amd64.deb ...
+Unpacking libp11-kit0:amd64 (0.23.2-5~ubuntu16.04.1) ...
+Selecting previously unselected package libtasn1-6:amd64.
+Preparing to unpack .../libtasn1-6_4.7-3ubuntu0.16.04.3_amd64.deb ...
+Unpacking libtasn1-6:amd64 (4.7-3ubuntu0.16.04.3) ...
+Selecting previously unselected package libgnutls30:amd64.
+Preparing to unpack .../libgnutls30_3.4.10-4ubuntu1.8_amd64.deb ...
+Unpacking libgnutls30:amd64 (3.4.10-4ubuntu1.8) ...
+Selecting previously unselected package libgnutls-openssl27:amd64.
+Preparing to unpack .../libgnutls-openssl27_3.4.10-4ubuntu1.8_amd64.deb ...
+Unpacking libgnutls-openssl27:amd64 (3.4.10-4ubuntu1.8) ...
+Selecting previously unselected package iputils-ping.
+Preparing to unpack .../iputils-ping_3%3a20121221-5ubuntu2_amd64.deb ...
+Unpacking iputils-ping (3:20121221-5ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.2) ...
+Setting up libgmp10:amd64 (2:6.1.0+dfsg-2) ...
+Setting up libnettle6:amd64 (3.2-1ubuntu0.16.04.1) ...
+Setting up libhogweed4:amd64 (3.2-1ubuntu0.16.04.1) ...
+Setting up libidn11:amd64 (1.32-3ubuntu1.2) ...
+Setting up libffi6:amd64 (3.2.1-4) ...
+Setting up libp11-kit0:amd64 (0.23.2-5~ubuntu16.04.1) ...
+Setting up libtasn1-6:amd64 (4.7-3ubuntu0.16.04.3) ...
+Setting up libgnutls30:amd64 (3.4.10-4ubuntu1.8) ...
+Setting up libgnutls-openssl27:amd64 (3.4.10-4ubuntu1.8) ...
+Setting up iputils-ping (3:20121221-5ubuntu2) ...
+Setcap is not installed, falling back to setuid
+Processing triggers for libc-bin (2.23-0ubuntu11.2) ...
+PING mongo-0.mongo.default.svc.cluster.local (10.42.3.9) 56(84) bytes of data.
+64 bytes from mongo-0.mongo.default.svc.cluster.local (10.42.3.9): icmp_seq=1 ttl=64 time=0.011 ms
+
+--- mongo-0.mongo.default.svc.cluster.local ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.011/0.011/0.011/0.000 ms
+MongoDB shell version v3.6.20
+connecting to: mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("2c53d32b-b0c4-41e6-993d-586727d89fca") }
+MongoDB server version: 3.6.20
+{
+	"host" : "mongo-0",
+	"version" : "3.6.20",
+	"process" : "mongod",
+	"pid" : NumberLong(1),
+	"uptime" : 24,
+	"uptimeMillis" : NumberLong(24059),
+	"uptimeEstimate" : NumberLong(24),
+	"localTime" : ISODate("2020-10-08T08:14:09.969Z"),
+	"asserts" : {
+		"regular" : 0,
+		"warning" : 0,
+		"msg" : 0,
+		"user" : 0,
+		"rollovers" : 0
+	},
+	"connections" : {
+		"current" : 1,
+		"available" : 838859,
+		"totalCreated" : 1
+	},
+	"extra_info" : {
+		"note" : "fields vary by platform",
+		"page_faults" : 182
+	},
+	"globalLock" : {
+		"totalTime" : NumberLong(24052000),
+		"currentQueue" : {
+			"total" : 0,
+			"readers" : 0,
+			"writers" : 0
+		},
+		"activeClients" : {
+			"total" : 13,
+			"readers" : 0,
+			"writers" : 0
+		}
+	},
+	"locks" : {
+		"Global" : {
+			"acquireCount" : {
+				"r" : NumberLong(166),
+				"w" : NumberLong(13),
+				"W" : NumberLong(4)
+			}
+		},
+		"Database" : {
+			"acquireCount" : {
+				"r" : NumberLong(85),
+				"w" : NumberLong(3),
+				"R" : NumberLong(1),
+				"W" : NumberLong(10)
+			},
+			"acquireWaitCount" : {
+				"r" : NumberLong(2)
+			},
+			"timeAcquiringMicros" : {
+				"r" : NumberLong(59844)
+			}
+		},
+		"Collection" : {
+			"acquireCount" : {
+				"r" : NumberLong(39),
+				"w" : NumberLong(3),
+				"W" : NumberLong(1)
+			}
+		},
+		"oplog" : {
+			"acquireCount" : {
+				"r" : NumberLong(46)
+			}
+		}
+	},
+	"logicalSessionRecordCache" : {
+		"activeSessionsCount" : 0,
+		"sessionsCollectionJobCount" : 1,
+		"lastSessionsCollectionJobDurationMillis" : 0,
+		"lastSessionsCollectionJobTimestamp" : ISODate("2020-10-08T08:13:47.148Z"),
+		"lastSessionsCollectionJobEntriesRefreshed" : 0,
+		"lastSessionsCollectionJobEntriesEnded" : 0,
+		"lastSessionsCollectionJobCursorsClosed" : 0,
+		"transactionReaperJobCount" : 1,
+		"lastTransactionReaperJobDurationMillis" : 0,
+		"lastTransactionReaperJobTimestamp" : ISODate("2020-10-08T08:13:47.148Z"),
+		"lastTransactionReaperJobEntriesCleanedUp" : 0
+	},
+	"network" : {
+		"bytesIn" : NumberLong(482),
+		"bytesOut" : NumberLong(1633),
+		"physicalBytesIn" : NumberLong(482),
+		"physicalBytesOut" : NumberLong(1633),
+		"numRequests" : NumberLong(4),
+		"compression" : {
+			"snappy" : {
+				"compressor" : {
+					"bytesIn" : NumberLong(0),
+					"bytesOut" : NumberLong(0)
+				},
+				"decompressor" : {
+					"bytesIn" : NumberLong(0),
+					"bytesOut" : NumberLong(0)
+				}
+			}
+		},
+		"serviceExecutorTaskStats" : {
+			"executor" : "passthrough",
+			"threadsRunning" : 1
+		}
+	},
+	"opLatencies" : {
+		"reads" : {
+			"latency" : NumberLong(0),
+			"ops" : NumberLong(0)
+		},
+		"writes" : {
+			"latency" : NumberLong(0),
+			"ops" : NumberLong(0)
+		},
+		"commands" : {
+			"latency" : NumberLong(110),
+			"ops" : NumberLong(3)
+		}
+	},
+	"opReadConcernCounters" : {
+		"available" : NumberLong(0),
+		"linearizable" : NumberLong(0),
+		"local" : NumberLong(0),
+		"majority" : NumberLong(0),
+		"none" : NumberLong(1)
+	},
+	"opcounters" : {
+		"insert" : 0,
+		"query" : 1,
+		"update" : 0,
+		"delete" : 0,
+		"getmore" : 0,
+		"command" : 5
+	},
+	"opcountersRepl" : {
+		"insert" : 0,
+		"query" : 0,
+		"update" : 0,
+		"delete" : 0,
+		"getmore" : 0,
+		"command" : 0
+	},
+	"repl" : {
+		"ismaster" : false,
+		"secondary" : false,
+		"info" : "Does not have a valid replica set config",
+		"isreplicaset" : true,
+		"rbid" : 1
+	},
+	"storageEngine" : {
+		"name" : "wiredTiger",
+		"supportsCommittedReads" : true,
+		"readOnly" : false,
+		"persistent" : true
+	},
+	"tcmalloc" : {
+		"generic" : {
+			"current_allocated_bytes" : 71111088,
+			"heap_size" : 75321344
+		},
+		"tcmalloc" : {
+			"pageheap_free_bytes" : 3325952,
+			"pageheap_unmapped_bytes" : 0,
+			"max_total_thread_cache_bytes" : 261095424,
+			"current_total_thread_cache_bytes" : 411704,
+			"total_free_bytes" : 884304,
+			"central_cache_free_bytes" : 145560,
+			"transfer_cache_free_bytes" : 327040,
+			"thread_cache_free_bytes" : 411704,
+			"aggressive_memory_decommit" : 0,
+			"pageheap_committed_bytes" : 75321344,
+			"pageheap_scavenge_count" : 0,
+			"pageheap_commit_count" : 46,
+			"pageheap_total_commit_bytes" : 75321344,
+			"pageheap_decommit_count" : 0,
+			"pageheap_total_decommit_bytes" : 0,
+			"pageheap_reserve_count" : 46,
+			"pageheap_total_reserve_bytes" : 75321344,
+			"spinlock_total_delay_ns" : 0,
+			"release_rate" : 1,
+			"formattedString" : "------------------------------------------------\nMALLOC:       71111664 (   67.8 MiB) Bytes in use by application\nMALLOC: +      3325952 (    3.2 MiB) Bytes in page heap freelist\nMALLOC: +       145560 (    0.1 MiB) Bytes in central cache freelist\nMALLOC: +       327040 (    0.3 MiB) Bytes in transfer cache freelist\nMALLOC: +       411128 (    0.4 MiB) Bytes in thread cache freelists\nMALLOC: +      1302784 (    1.2 MiB) Bytes in malloc metadata\nMALLOC:   ------------\nMALLOC: =     76624128 (   73.1 MiB) Actual memory used (physical + swap)\nMALLOC: +            0 (    0.0 MiB) Bytes released to OS (aka unmapped)\nMALLOC:   ------------\nMALLOC: =     76624128 (   73.1 MiB) Virtual address space used\nMALLOC:\nMALLOC:            542              Spans in use\nMALLOC:             20              Thread heaps in use\nMALLOC:           4096              Tcmalloc page size\n------------------------------------------------\nCall ReleaseFreeMemory() to release freelist memory to the OS (via madvise()).\nBytes released to the OS take up virtual address space but no physical memory.\n"
+		}
+	},
+	"transactions" : {
+		"retriedCommandsCount" : NumberLong(0),
+		"retriedStatementsCount" : NumberLong(0),
+		"transactionsCollectionWriteCount" : NumberLong(0)
+	},
+	"transportSecurity" : {
+		"1.0" : NumberLong(0),
+		"1.1" : NumberLong(0),
+		"1.2" : NumberLong(0),
+		"1.3" : NumberLong(0),
+		"unknown" : NumberLong(0)
+	},
+	"wiredTiger" : {
+		"uri" : "statistics:",
+		"LSM" : {
+			"application work units currently queued" : 0,
+			"merge work units currently queued" : 0,
+			"rows merged in an LSM tree" : 0,
+			"sleep for LSM checkpoint throttle" : 0,
+			"sleep for LSM merge throttle" : 0,
+			"switch work units currently queued" : 0,
+			"tree maintenance operations discarded" : 0,
+			"tree maintenance operations executed" : 0,
+			"tree maintenance operations scheduled" : 0,
+			"tree queue hit maximum" : 0
+		},
+		"async" : {
+			"current work queue length" : 0,
+			"maximum work queue length" : 0,
+			"number of allocation state races" : 0,
+			"number of flush calls" : 0,
+			"number of operation slots viewed for allocation" : 0,
+			"number of times operation allocation failed" : 0,
+			"number of times worker found no work" : 0,
+			"total allocations" : 0,
+			"total compact calls" : 0,
+			"total insert calls" : 0,
+			"total remove calls" : 0,
+			"total search calls" : 0,
+			"total update calls" : 0
+		},
+		"block-manager" : {
+			"blocks pre-loaded" : 0,
+			"blocks read" : 0,
+			"blocks written" : 0,
+			"bytes read" : 0,
+			"bytes written" : 0,
+			"bytes written for checkpoint" : 0,
+			"mapped blocks read" : 0,
+			"mapped bytes read" : 0
+		},
+		"cache" : {
+			"application threads page read from disk to cache count" : 0,
+			"application threads page read from disk to cache time (usecs)" : 0,
+			"application threads page write from cache to disk count" : 0,
+			"application threads page write from cache to disk time (usecs)" : 0,
+			"bytes belonging to page images in the cache" : 0,
+			"bytes belonging to the cache overflow table in the cache" : 182,
+			"bytes currently in the cache" : 37582,
+			"bytes not belonging to page images in the cache" : 37582,
+			"bytes read into cache" : 0,
+			"bytes written from cache" : 0,
+			"cache overflow cursor application thread wait time (usecs)" : 0,
+			"cache overflow cursor internal thread wait time (usecs)" : 0,
+			"cache overflow score" : 0,
+			"cache overflow table entries" : 0,
+			"cache overflow table insert calls" : 0,
+			"cache overflow table max on-disk size" : 0,
+			"cache overflow table on-disk size" : 0,
+			"cache overflow table remove calls" : 0,
+			"checkpoint blocked page eviction" : 0,
+			"eviction calls to get a page" : 0,
+			"eviction calls to get a page found queue empty" : 0,
+			"eviction calls to get a page found queue empty after locking" : 0,
+			"eviction currently operating in aggressive mode" : 0,
+			"eviction empty score" : 0,
+			"eviction passes of a file" : 0,
+			"eviction server candidate queue empty when topping up" : 0,
+			"eviction server candidate queue not empty when topping up" : 0,
+			"eviction server evicting pages" : 0,
+			"eviction server slept, because we did not make progress with eviction" : 0,
+			"eviction server unable to reach eviction goal" : 0,
+			"eviction state" : 64,
+			"eviction walk target pages histogram - 0-9" : 0,
+			"eviction walk target pages histogram - 10-31" : 0,
+			"eviction walk target pages histogram - 128 and higher" : 0,
+			"eviction walk target pages histogram - 32-63" : 0,
+			"eviction walk target pages histogram - 64-128" : 0,
+			"eviction walks abandoned" : 0,
+			"eviction walks gave up because they restarted their walk twice" : 0,
+			"eviction walks gave up because they saw too many pages and found no candidates" : 0,
+			"eviction walks gave up because they saw too many pages and found too few candidates" : 0,
+			"eviction walks reached end of tree" : 0,
+			"eviction walks started from root of tree" : 0,
+			"eviction walks started from saved location in tree" : 0,
+			"eviction worker thread active" : 4,
+			"eviction worker thread created" : 0,
+			"eviction worker thread evicting pages" : 0,
+			"eviction worker thread removed" : 0,
+			"eviction worker thread stable number" : 0,
+			"failed eviction of pages that exceeded the in-memory maximum count" : 0,
+			"failed eviction of pages that exceeded the in-memory maximum time (usecs)" : 0,
+			"files with active eviction walks" : 0,
+			"files with new eviction walks started" : 0,
+			"force re-tuning of eviction workers once in a while" : 0,
+			"hazard pointer blocked page eviction" : 0,
+			"hazard pointer check calls" : 0,
+			"hazard pointer check entries walked" : 0,
+			"hazard pointer maximum array length" : 0,
+			"in-memory page passed criteria to be split" : 0,
+			"in-memory page splits" : 0,
+			"internal pages evicted" : 0,
+			"internal pages split during eviction" : 0,
+			"leaf pages split during eviction" : 0,
+			"maximum bytes configured" : 507510784,
+			"maximum page size at eviction" : 0,
+			"modified pages evicted" : 0,
+			"modified pages evicted by application threads" : 0,
+			"operations timed out waiting for space in cache" : 0,
+			"overflow pages read into cache" : 0,
+			"page split during eviction deepened the tree" : 0,
+			"page written requiring cache overflow records" : 0,
+			"pages currently held in the cache" : 27,
+			"pages evicted because they exceeded the in-memory maximum count" : 0,
+			"pages evicted because they exceeded the in-memory maximum time (usecs)" : 0,
+			"pages evicted because they had chains of deleted items count" : 0,
+			"pages evicted because they had chains of deleted items time (usecs)" : 0,
+			"pages evicted by application threads" : 0,
+			"pages queued for eviction" : 0,
+			"pages queued for urgent eviction" : 0,
+			"pages queued for urgent eviction during walk" : 0,
+			"pages read into cache" : 0,
+			"pages read into cache after truncate" : 13,
+			"pages read into cache after truncate in prepare state" : 0,
+			"pages read into cache requiring cache overflow entries" : 0,
+			"pages read into cache requiring cache overflow for checkpoint" : 0,
+			"pages read into cache skipping older cache overflow entries" : 0,
+			"pages read into cache with skipped cache overflow entries needed later" : 0,
+			"pages read into cache with skipped cache overflow entries needed later by checkpoint" : 0,
+			"pages requested from the cache" : 280,
+			"pages seen by eviction walk" : 0,
+			"pages selected for eviction unable to be evicted" : 0,
+			"pages walked for eviction" : 0,
+			"pages written from cache" : 0,
+			"pages written requiring in-memory restoration" : 0,
+			"percentage overhead" : 8,
+			"tracked bytes belonging to internal pages in the cache" : 2366,
+			"tracked bytes belonging to leaf pages in the cache" : 35216,
+			"tracked dirty bytes in the cache" : 35027,
+			"tracked dirty pages in the cache" : 13,
+			"unmodified pages evicted" : 0
+		},
+		"connection" : {
+			"auto adjusting condition resets" : 7,
+			"auto adjusting condition wait calls" : 162,
+			"detected system time went backwards" : 0,
+			"files currently open" : 17,
+			"memory allocations" : 3680,
+			"memory frees" : 2518,
+			"memory re-allocations" : 305,
+			"pthread mutex condition wait calls" : 396,
+			"pthread mutex shared lock read-lock calls" : 423,
+			"pthread mutex shared lock write-lock calls" : 90,
+			"total fsync I/Os" : 40,
+			"total read I/Os" : 17,
+			"total write I/Os" : 39
+		},
+		"cursor" : {
+			"cached cursor count" : 20,
+			"cursor close calls that result in cache" : 21,
+			"cursor create calls" : 60,
+			"cursor insert calls" : 63,
+			"cursor modify calls" : 0,
+			"cursor next calls" : 17,
+			"cursor operation restarted" : 0,
+			"cursor prev calls" : 7,
+			"cursor remove calls" : 0,
+			"cursor reserve calls" : 0,
+			"cursor reset calls" : 316,
+			"cursor search calls" : 223,
+			"cursor search near calls" : 1,
+			"cursor sweep buckets" : 150,
+			"cursor sweep cursors closed" : 0,
+			"cursor sweep cursors examined" : 5,
+			"cursor sweeps" : 25,
+			"cursor update calls" : 0,
+			"cursors reused from cache" : 1,
+			"open cursor count" : 23,
+			"truncate calls" : 0
+		},
+		"data-handle" : {
+			"connection data handles currently active" : 26,
+			"connection sweep candidate became referenced" : 0,
+			"connection sweep dhandles closed" : 0,
+			"connection sweep dhandles removed from hash list" : 0,
+			"connection sweep time-of-death sets" : 23,
+			"connection sweeps" : 7,
+			"session dhandles swept" : 0,
+			"session sweep attempts" : 29
+		},
+		"lock" : {
+			"checkpoint lock acquisitions" : 0,
+			"checkpoint lock application thread wait time (usecs)" : 0,
+			"checkpoint lock internal thread wait time (usecs)" : 0,
+			"commit timestamp queue lock application thread time waiting (usecs)" : 0,
+			"commit timestamp queue lock internal thread time waiting (usecs)" : 0,
+			"commit timestamp queue read lock acquisitions" : 0,
+			"commit timestamp queue write lock acquisitions" : 0,
+			"dhandle lock application thread time waiting (usecs)" : 0,
+			"dhandle lock internal thread time waiting (usecs)" : 0,
+			"dhandle read lock acquisitions" : 98,
+			"dhandle write lock acquisitions" : 26,
+			"metadata lock acquisitions" : 0,
+			"metadata lock application thread wait time (usecs)" : 0,
+			"metadata lock internal thread wait time (usecs)" : 0,
+			"read timestamp queue lock application thread time waiting (usecs)" : 0,
+			"read timestamp queue lock internal thread time waiting (usecs)" : 0,
+			"read timestamp queue read lock acquisitions" : 0,
+			"read timestamp queue write lock acquisitions" : 0,
+			"schema lock acquisitions" : 15,
+			"schema lock application thread wait time (usecs)" : 0,
+			"schema lock internal thread wait time (usecs)" : 0,
+			"table lock application thread time waiting for the table lock (usecs)" : 0,
+			"table lock internal thread time waiting for the table lock (usecs)" : 0,
+			"table read lock acquisitions" : 0,
+			"table write lock acquisitions" : 13,
+			"txn global lock application thread time waiting (usecs)" : 0,
+			"txn global lock internal thread time waiting (usecs)" : 0,
+			"txn global read lock acquisitions" : 4,
+			"txn global write lock acquisitions" : 4
+		},
+		"log" : {
+			"busy returns attempting to switch slots" : 0,
+			"force archive time sleeping (usecs)" : 0,
+			"log bytes of payload data" : 16835,
+			"log bytes written" : 21632,
+			"log files manually zero-filled" : 0,
+			"log flush operations" : 221,
+			"log force write operations" : 253,
+			"log force write operations skipped" : 247,
+			"log records compressed" : 21,
+			"log records not compressed" : 19,
+			"log records too small to compress" : 20,
+			"log release advances write LSN" : 14,
+			"log scan operations" : 0,
+			"log scan records requiring two reads" : 0,
+			"log server thread advances write LSN" : 6,
+			"log server thread write LSN walk skipped" : 1026,
+			"log sync operations" : 17,
+			"log sync time duration (usecs)" : 118979,
+			"log sync_dir operations" : 1,
+			"log sync_dir time duration (usecs)" : 1460,
+			"log write operations" : 60,
+			"logging bytes consolidated" : 21120,
+			"maximum log file size" : 104857600,
+			"number of pre-allocated log files to create" : 2,
+			"pre-allocated log files not ready and missed" : 1,
+			"pre-allocated log files prepared" : 2,
+			"pre-allocated log files used" : 0,
+			"records processed by log scan" : 0,
+			"slot close lost race" : 0,
+			"slot close unbuffered waits" : 0,
+			"slot closures" : 20,
+			"slot join atomic update races" : 0,
+			"slot join calls atomic updates raced" : 0,
+			"slot join calls did not yield" : 60,
+			"slot join calls found active slot closed" : 0,
+			"slot join calls slept" : 0,
+			"slot join calls yielded" : 0,
+			"slot join found active slot closed" : 0,
+			"slot joins yield time (usecs)" : 0,
+			"slot transitions unable to find free slot" : 0,
+			"slot unbuffered writes" : 0,
+			"total in-memory size of compressed records" : 18710,
+			"total log buffer size" : 33554432,
+			"total size of compressed records" : 12438,
+			"written slots coalesced" : 0,
+			"yields waiting for previous log file close" : 0
+		},
+		"perf" : {
+			"file system read latency histogram (bucket 1) - 10-49ms" : 0,
+			"file system read latency histogram (bucket 2) - 50-99ms" : 0,
+			"file system read latency histogram (bucket 3) - 100-249ms" : 0,
+			"file system read latency histogram (bucket 4) - 250-499ms" : 0,
+			"file system read latency histogram (bucket 5) - 500-999ms" : 0,
+			"file system read latency histogram (bucket 6) - 1000ms+" : 0,
+			"file system write latency histogram (bucket 1) - 10-49ms" : 0,
+			"file system write latency histogram (bucket 2) - 50-99ms" : 0,
+			"file system write latency histogram (bucket 3) - 100-249ms" : 0,
+			"file system write latency histogram (bucket 4) - 250-499ms" : 0,
+			"file system write latency histogram (bucket 5) - 500-999ms" : 0,
+			"file system write latency histogram (bucket 6) - 1000ms+" : 0,
+			"operation read latency histogram (bucket 1) - 100-249us" : 0,
+			"operation read latency histogram (bucket 2) - 250-499us" : 0,
+			"operation read latency histogram (bucket 3) - 500-999us" : 0,
+			"operation read latency histogram (bucket 4) - 1000-9999us" : 0,
+			"operation read latency histogram (bucket 5) - 10000us+" : 0,
+			"operation write latency histogram (bucket 1) - 100-249us" : 0,
+			"operation write latency histogram (bucket 2) - 250-499us" : 0,
+			"operation write latency histogram (bucket 3) - 500-999us" : 0,
+			"operation write latency histogram (bucket 4) - 1000-9999us" : 0,
+			"operation write latency histogram (bucket 5) - 10000us+" : 0
+		},
+		"reconciliation" : {
+			"fast-path pages deleted" : 0,
+			"page reconciliation calls" : 0,
+			"page reconciliation calls for eviction" : 0,
+			"pages deleted" : 0,
+			"split bytes currently awaiting free" : 0,
+			"split objects currently awaiting free" : 0
+		},
+		"session" : {
+			"open session count" : 20,
+			"session query timestamp calls" : 0,
+			"table alter failed calls" : 0,
+			"table alter successful calls" : 0,
+			"table alter unchanged and skipped" : 0,
+			"table compact failed calls" : 0,
+			"table compact successful calls" : 0,
+			"table create failed calls" : 0,
+			"table create successful calls" : 12,
+			"table drop failed calls" : 0,
+			"table drop successful calls" : 0,
+			"table rebalance failed calls" : 0,
+			"table rebalance successful calls" : 0,
+			"table rename failed calls" : 0,
+			"table rename successful calls" : 0,
+			"table salvage failed calls" : 0,
+			"table salvage successful calls" : 0,
+			"table truncate failed calls" : 0,
+			"table truncate successful calls" : 0,
+			"table verify failed calls" : 0,
+			"table verify successful calls" : 0
+		},
+		"thread-state" : {
+			"active filesystem fsync calls" : 0,
+			"active filesystem read calls" : 0,
+			"active filesystem write calls" : 0
+		},
+		"thread-yield" : {
+			"application thread time evicting (usecs)" : 0,
+			"application thread time waiting for cache (usecs)" : 0,
+			"connection close blocked waiting for transaction state stabilization" : 0,
+			"connection close yielded for lsm manager shutdown" : 0,
+			"data handle lock yielded" : 0,
+			"get reference for page index and slot time sleeping (usecs)" : 0,
+			"log server sync yielded for log write" : 0,
+			"page access yielded due to prepare state change" : 0,
+			"page acquire busy blocked" : 0,
+			"page acquire eviction blocked" : 0,
+			"page acquire locked blocked" : 0,
+			"page acquire read blocked" : 0,
+			"page acquire time sleeping (usecs)" : 0,
+			"page delete rollback time sleeping for state change (usecs)" : 0,
+			"page reconciliation yielded due to child modification" : 0
+		},
+		"transaction" : {
+			"commit timestamp queue entries walked" : 0,
+			"commit timestamp queue insert to empty" : 0,
+			"commit timestamp queue inserts to head" : 0,
+			"commit timestamp queue inserts total" : 0,
+			"commit timestamp queue length" : 0,
+			"number of named snapshots created" : 0,
+			"number of named snapshots dropped" : 0,
+			"prepared transactions" : 0,
+			"prepared transactions committed" : 0,
+			"prepared transactions currently active" : 0,
+			"prepared transactions rolled back" : 0,
+			"query timestamp calls" : 0,
+			"read timestamp queue entries walked" : 0,
+			"read timestamp queue insert to empty" : 0,
+			"read timestamp queue inserts to head" : 0,
+			"read timestamp queue inserts total" : 0,
+			"read timestamp queue length" : 0,
+			"rollback to stable calls" : 0,
+			"rollback to stable updates aborted" : 0,
+			"rollback to stable updates removed from cache overflow" : 0,
+			"set timestamp calls" : 0,
+			"set timestamp commit calls" : 0,
+			"set timestamp commit updates" : 0,
+			"set timestamp oldest calls" : 0,
+			"set timestamp oldest updates" : 0,
+			"set timestamp stable calls" : 0,
+			"set timestamp stable updates" : 0,
+			"transaction begins" : 13,
+			"transaction checkpoint currently running" : 0,
+			"transaction checkpoint generation" : 0,
+			"transaction checkpoint max time (msecs)" : 0,
+			"transaction checkpoint min time (msecs)" : 0,
+			"transaction checkpoint most recent time (msecs)" : 0,
+			"transaction checkpoint scrub dirty target" : 0,
+			"transaction checkpoint scrub time (msecs)" : 0,
+			"transaction checkpoint total time (msecs)" : 0,
+			"transaction checkpoints" : 0,
+			"transaction checkpoints skipped because database was clean" : 0,
+			"transaction failures due to cache overflow" : 0,
+			"transaction fsync calls for checkpoint after allocating the transaction ID" : 0,
+			"transaction fsync duration for checkpoint after allocating the transaction ID (usecs)" : 0,
+			"transaction range of IDs currently pinned" : 0,
+			"transaction range of IDs currently pinned by a checkpoint" : 0,
+			"transaction range of IDs currently pinned by named snapshots" : 0,
+			"transaction range of timestamps currently pinned" : 0,
+			"transaction range of timestamps pinned by a checkpoint" : 0,
+			"transaction range of timestamps pinned by the oldest timestamp" : 0,
+			"transaction sync calls" : 0,
+			"transactions committed" : 10,
+			"transactions rolled back" : 3,
+			"update conflicts" : 0
+		},
+		"concurrentTransactions" : {
+			"write" : {
+				"out" : 0,
+				"available" : 128,
+				"totalTickets" : 128
+			},
+			"read" : {
+				"out" : 1,
+				"available" : 127,
+				"totalTickets" : 128
+			}
+		}
+	},
+	"mem" : {
+		"bits" : 64,
+		"resident" : 68,
+		"virtual" : 1002,
+		"supported" : true,
+		"mapped" : 0,
+		"mappedWithJournal" : 0
+	},
+	"metrics" : {
+		"commands" : {
+			"buildInfo" : {
+				"failed" : NumberLong(0),
+				"total" : NumberLong(1)
+			},
+			"find" : {
+				"failed" : NumberLong(0),
+				"total" : NumberLong(1)
+			},
+			"isMaster" : {
+				"failed" : NumberLong(0),
+				"total" : NumberLong(1)
+			},
+			"listIndexes" : {
+				"failed" : NumberLong(1),
+				"total" : NumberLong(1)
+			},
+			"serverStatus" : {
+				"failed" : NumberLong(0),
+				"total" : NumberLong(1)
+			},
+			"whatsmyuri" : {
+				"failed" : NumberLong(0),
+				"total" : NumberLong(1)
+			}
+		},
+		"cursor" : {
+			"timedOut" : NumberLong(0),
+			"open" : {
+				"noTimeout" : NumberLong(0),
+				"pinned" : NumberLong(0),
+				"total" : NumberLong(0)
+			}
+		},
+		"document" : {
+			"deleted" : NumberLong(0),
+			"inserted" : NumberLong(0),
+			"returned" : NumberLong(0),
+			"updated" : NumberLong(0)
+		},
+		"getLastError" : {
+			"wtime" : {
+				"num" : 0,
+				"totalMillis" : 0
+			},
+			"wtimeouts" : NumberLong(0)
+		},
+		"operation" : {
+			"scanAndOrder" : NumberLong(0),
+			"writeConflicts" : NumberLong(0)
+		},
+		"query" : {
+			"planCacheTotalSizeEstimateBytes" : NumberLong(0),
+			"updateOneOpStyleBroadcastWithExactIDCount" : NumberLong(0),
+			"upsertReplacementCannotTargetByQueryCount" : NumberLong(0)
+		},
+		"queryExecutor" : {
+			"scanned" : NumberLong(0),
+			"scannedObjects" : NumberLong(0)
+		},
+		"record" : {
+			"moves" : NumberLong(0)
+		},
+		"repl" : {
+			"executor" : {
+				"pool" : {
+					"inProgressCount" : 0
+				},
+				"queues" : {
+					"networkInProgress" : 0,
+					"sleepers" : 0
+				},
+				"unsignaledEvents" : 0,
+				"shuttingDown" : false,
+				"networkInterface" : "\nNetworkInterfaceASIO Operations' Diagnostic:\nOperation:    Count:   \nConnecting    0        \nIn Progress   0        \nSucceeded     0        \nCanceled      0        \nFailed        0        \nTimed Out     0        \n\n"
+			},
+			"apply" : {
+				"attemptsToBecomeSecondary" : NumberLong(0),
+				"batchSize" : NumberLong(0),
+				"batches" : {
+					"num" : 0,
+					"totalMillis" : 0
+				},
+				"ops" : NumberLong(0)
+			},
+			"buffer" : {
+				"count" : NumberLong(0),
+				"maxSizeBytes" : NumberLong(0),
+				"sizeBytes" : NumberLong(0)
+			},
+			"initialSync" : {
+				"completed" : NumberLong(0),
+				"failedAttempts" : NumberLong(0),
+				"failures" : NumberLong(0)
+			},
+			"network" : {
+				"bytes" : NumberLong(0),
+				"getmores" : {
+					"num" : 0,
+					"totalMillis" : 0
+				},
+				"ops" : NumberLong(0),
+				"readersCreated" : NumberLong(0)
+			},
+			"preload" : {
+				"docs" : {
+					"num" : 0,
+					"totalMillis" : 0
+				},
+				"indexes" : {
+					"num" : 0,
+					"totalMillis" : 0
+				}
+			}
+		},
+		"storage" : {
+			"freelist" : {
+				"search" : {
+					"bucketExhausted" : NumberLong(0),
+					"requests" : NumberLong(0),
+					"scanned" : NumberLong(0)
+				}
+			}
+		},
+		"ttl" : {
+			"deletedDocuments" : NumberLong(0),
+			"passes" : NumberLong(0)
+		}
+	},
+	"ok" : 1
+}
+connected to local.
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:14:10.095+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:14:10.095+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:14:20.149+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:14:20.149+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:14:30.225+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:14:30.226+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:14:40.273+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:14:40.274+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:14:50.318+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:14:50.318+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:15:00.363+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:15:00.363+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:15:10.411+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:15:10.411+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:15:20.456+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:15:20.456+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:15:30.501+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:15:30.501+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:15:40.550+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:15:40.551+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:15:50.594+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:15:50.594+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:16:00.640+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:16:00.640+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:16:10.682+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:16:10.683+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:16:20.737+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:16:20.737+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:16:30.799+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:16:30.799+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:16:40.843+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:16:40.843+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:16:50.909+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:16:50.909+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:17:00.957+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:17:00.957+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:17:11.011+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:17:11.011+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:17:21.240+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:17:21.240+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:17:31.289+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:17:31.290+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:17:41.343+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:17:41.343+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:17:51.388+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:17:51.388+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:18:01.437+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:18:01.437+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:18:11.490+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:18:11.490+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:18:21.539+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:18:21.539+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:18:31.587+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:18:31.587+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:18:41.632+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:18:41.632+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:18:51.690+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:18:51.691+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:19:01.743+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:19:01.743+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:19:11.786+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:19:11.786+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:19:21.843+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:19:21.843+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:19:31.890+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:19:31.890+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:19:41.955+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:19:41.956+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:19:52.008+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:19:52.008+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:20:02.075+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:20:02.076+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:20:12.121+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:20:12.122+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:20:22.167+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:20:22.167+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:20:32.216+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:20:32.216+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:20:42.264+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:20:42.264+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:20:52.312+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:20:52.312+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:21:02.357+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:21:02.357+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:21:12.407+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:21:12.407+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:21:22.454+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:21:22.455+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:21:32.510+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:21:32.511+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:21:42.557+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:21:42.557+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:21:52.609+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:21:52.609+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:22:02.659+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:22:02.659+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:22:12.710+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:22:12.710+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:22:22.755+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:22:22.755+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:22:32.799+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:22:32.799+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:22:42.849+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:22:42.849+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:22:52.896+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:22:52.897+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:23:02.940+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:23:02.940+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:23:13.015+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:23:13.015+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:23:23.071+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:23:23.071+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:23:33.118+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:23:33.122+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:23:43.191+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:23:43.192+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:23:53.250+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:23:53.251+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
+MongoDB shell version v3.6.20
+connecting to: mongodb://mongo-0.mongo:27017/?gssapiServiceName=mongodb
+2020-10-08T08:24:03.293+0000 W NETWORK  [thread1] Failed to connect to 10.42.3.9:27017, in(checking socket for error after poll), reason: Connection refused
+2020-10-08T08:24:03.293+0000 E QUERY    [thread1] Error: couldn't connect to server mongo-0.mongo:27017, connection attempt failed :
+connect@src/mongo/shell/mongo.js:275:13
+@(connect):1:6
+exception: connect failed
+connecting to remote mongo...
